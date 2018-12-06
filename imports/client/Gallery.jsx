@@ -25,8 +25,8 @@ export default class Gallery extends React.Component {
 						<div className="gallery">
 							<header>
 								<h1>Gallery</h1>
-								<a href="/" className="home-button"><h3>Home</h3></a>
 							</header>
+							<a href="/" className="home-button"><h3>Home</h3></a>
 							<div className="content">
 								<div className="media">
 									<div
@@ -246,7 +246,7 @@ export default class Gallery extends React.Component {
 
 					<section id="contact">
 						<div className="social column">
-							<h3>About Me</h3>
+							<h3>What is JD's Hub</h3>
 							<p>
 								Mus sed interdum nunc dictum rutrum scelerisque erat a
 								parturient condimentum potenti dapibus vestibulum condimentum
@@ -266,7 +266,7 @@ export default class Gallery extends React.Component {
 								scelerisque dis libero parturient magnis.
 							</p>
 							<a href="/pricing" className="button">
-								Pricing 
+								Venue Features
 							</a>
 							<ul className="icons">
 								<li>

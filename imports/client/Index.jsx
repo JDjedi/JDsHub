@@ -30,7 +30,7 @@ export default class Gallery extends React.Component {
 							</section>
 							<section id="contact">
 								<div className="social column">
-									<h3>About Me</h3>
+									<h3>What is JD's Hub</h3>
 									<p>
 										Mus sed interdum nunc dictum rutrum scelerisque erat a
 										parturient condimentum potenti dapibus vestibulum
