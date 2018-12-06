@@ -11,6 +11,7 @@ export default class Contact extends Component {
     };
     this.changeHandler = this.changeHandler.bind(this);
     this.submitHandler = this.submitHandler.bind(this);
+
   }
 
   changeHandler(event) {
@@ -28,6 +29,8 @@ export default class Contact extends Component {
       name,
       message
     )
+
+    console.log('Confirmation!')
   }
 
   render() {

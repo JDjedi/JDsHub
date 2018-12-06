@@ -76,7 +76,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #F8EBFD;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -93,7 +93,7 @@
 /* Type */
 
 	body {
-		background-color: #fff;
+		background-color: #F8EBFD;
 		color: #22313F;
 	}
 
@@ -481,10 +481,11 @@
 			padding-left: 3.5em;
 			padding-right: 3.5em;
 			width: 50%;
+			background: #F8EBFD;
 		}
 
 			#contact .column.social {
-				background: #e6e6e6;
+				background: #F8EBFD;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -532,7 +533,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: #fdeef4;
 		width: 100%;
 	}
 
@@ -601,7 +602,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: #fdeef4;
 	}
 
 	#pricing .column.pricing {
@@ -871,6 +872,7 @@
 		position: relative;
 		overflow: hidden;
 		min-height: 37em;
+		background-color: #FDEEF4;
 	}
 
 		@media screen and (max-width: 980px) {
@@ -954,6 +956,20 @@
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
 		}
+			.contentVideo {
+		    overflow:hidden;
+		    padding-bottom:56.25%;
+		    position:relative;
+		    height:0;
+  		}
+
+  		.contentVideo iframe {
+		    left:0;
+		    top:0;
+		    height:100%;
+		    width:100%;
+		    position: absolute;
+		  }
 
 			.gallery .content .media {
 				-moz-animation: gallery 0.75s ease-out 0.4s forwards;
@@ -1549,6 +1565,7 @@
 		background-position: center;
 		text-align: center;
 		color: #FFF;
+		font-family: 'Dancing Script', cursive;
 	}
 
 		#banner:before {
@@ -1588,20 +1605,21 @@
 		}
 
 		#banner h1 {
-			font-size: 4em;
+			font-size: 5.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
-			color: #FFF;
+			color: #E9DAE0;
 		}
 
 		#banner p {
-			font-size: 1.5em;
+			font-size: 2em;
 			margin-bottom: 1.75em;
+			color: #E9DAE0;
 		}
 
 		#banner a {
-			color: #FFF;
+			color: #E9DAE0;
 			text-decoration: none;
 		}
 
@@ -1667,7 +1685,7 @@
 
 	#footer {
 		padding: 4em 0 2em 0;
-		background: #f2f2f2;
+		background: #FFF8FE;
 	}
 
 		#footer .copyright {

@@ -11,10 +11,12 @@ export default class Gallery extends React.Component {
 				<section id="main">
 					<section id="pricing">
 						<header>
-							<h1>Plans</h1>
+							<h1>Venue Features</h1>
+							<a href="/" className="home-button"><h3>Home</h3></a>
 						</header>
 						<div className="content">
 							<div className="pricing column">
+								<h4>Live Music</h4>
 								<p>
 									Mus sed interdum nunc dictum rutrum scelerisque erat a
 									parturient condimentum potenti dapibus vestibulum condimentum
@@ -22,11 +24,9 @@ export default class Gallery extends React.Component {
 									a commodo a mattis ipsum class quam sed eros vestibulum quisque
 									a eu nulla scelerisque a elementum vestibulum.
 								</p>
-								<div className="button big">
-									<p>99.99</p>
-								</div>
 							</div>
 							<div className="pricing column">
+								<h4>Signature Spirits</h4>
 								<p>
 									Mus sed interdum nunc dictum rutrum scelerisque erat a
 									parturient condimentum potenti dapibus vestibulum condimentum
@@ -34,11 +34,9 @@ export default class Gallery extends React.Component {
 									a commodo a mattis ipsum class quam sed eros vestibulum quisque
 									a eu nulla scelerisque a elementum vestibulum.
 								</p>
-								<div className="button big">
-									<p>199.99</p>
-								</div>
 							</div>
 							<div className="pricing column">
+								<h4>Great Foods</h4>
 								<p>
 									Mus sed interdum nunc dictum rutrum scelerisque erat a
 									parturient condimentum potenti dapibus vestibulum condimentum
@@ -46,9 +44,6 @@ export default class Gallery extends React.Component {
 									a commodo a mattis ipsum class quam sed eros vestibulum quisque
 									a eu nulla scelerisque a elementum vestibulum.
 								</p>
-								<div className="button big">
-									<p>299.99</p>
-								</div>
 							</div>
 						</div>
 					</section>
@@ -60,8 +55,7 @@ export default class Gallery extends React.Component {
 					<footer id="footer">
 						<div className="copyright">
 							&copy; Untitled Design:{" "}
-							<a href="https://templated.co/">TEMPLATED</a>. Images:{" "}
-							<a href="https://unsplash.com/">Unsplash</a>.
+							<a href="">TEMPLATED</a>.
 						</div>
 					</footer>
 				</section>

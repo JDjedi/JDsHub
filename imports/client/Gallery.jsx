@@ -25,6 +25,7 @@ export default class Gallery extends React.Component {
 						<div className="gallery">
 							<header>
 								<h1>Gallery</h1>
+								<a href="/" className="home-button"><h3>Home</h3></a>
 							</header>
 							<div className="content">
 								<div className="media">
@@ -292,8 +293,7 @@ export default class Gallery extends React.Component {
 					<footer id="footer">
 						<div className="copyright">
 							&copy; Untitled Design:{" "}
-							<a href="https://templated.co/">TEMPLATED</a>. Images:{" "}
-							<a href="https://unsplash.com/">Unsplash</a>.
+							<a href="">TEMPLATED</a>.
 						</div>
 					</footer>
 				</section>

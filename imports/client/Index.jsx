@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactPlayer from 'react-player'
 import Contact from './Contact';
 import Pricing from './Pricing';
 
@@ -12,49 +12,18 @@ export default class Gallery extends React.Component {
 						<section id="main">
 							<section id="banner">
 								<div className="inner">
-									<h1>Parties by Perez</h1>
-									<p>The Only Party Planner You Will Ever Need</p>
+									<h1>JD's Hub</h1>
 								</div>
 							</section>
 
 							<section id="galleries">
 								<div className="gallery">
 									<header className="special">
-										<h2>Events</h2>
+										<h2>Good Times, Good Vibes</h2>
 									</header>
-									<div className="content">
-										<div className="media">
-											<img
-												src="images/thumbs/01.jpg"
-												alt=""
-												title="This right here is a caption."
-											/>
-										</div>
-										<div className="media">
-											<img
-												src="images/thumbs/05.jpg"
-												alt=""
-												title="This right here is a caption."
-											/>
-										</div>
-										<div className="media">
-											<img
-												src="images/thumbs/09.jpg"
-												alt=""
-												title="This right here is a caption."
-											/>
-										</div>
-										<div className="media">
-											<img
-												src="images/thumbs/02.jpg"
-												alt=""
-												title="This right here is a caption."
-											/>
-										</div>
-									</div>
 									<footer>
 										<a href="/gallery" className="button big">
-											Full Gallery
+											Image Gallery
 										</a>
 									</footer>
 								</div>
@@ -83,9 +52,8 @@ export default class Gallery extends React.Component {
 										parturient magnis.
 									</p>
 									<a href="/pricing" className="button">
-										Pricing 
+										Venue Features
 									</a>
-								
 									<ul className="icons">
 										<li>
 											<a href="#" className="icon fa-twitter">
@@ -122,3 +90,42 @@ export default class Gallery extends React.Component {
 		);
 	}
 }
+
+//<div className="content">
+//	<div className="media">
+//		<img
+//			src="images/thumbs/01.jpg"
+//			alt=""
+//			title="This right here is a caption."
+//		/>
+//	</div>
+//	<div className="media">
+//		<img
+//			src="images/thumbs/05.jpg"
+//			alt=""
+//			title="This right here is a caption."
+//		/>
+//	</div>
+//	<div className="media">
+//		<img
+//			src="images/thumbs/09.jpg"
+//			alt=""
+//			title="This right here is a caption."
+//		/>
+//	</div>
+//	<div className="media">
+//		<img
+//			src="images/thumbs/02.jpg"
+//			alt=""
+//			title="This right here is a caption."
+//		/>
+//	</div>
+//</div>
+
+// <ReactPlayer
+	// 	className='react-player'
+	// 	url='https://www.youtube.com/watch?v=KQ6zr6kCPj8'
+	// 	controls
+	// />
+
+

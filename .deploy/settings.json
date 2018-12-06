@@ -1,5 +1,8 @@
 {
   "public": {
 
-  }
+  },
+
+	"smtp" : "smtp://postmaster@sandbox215b4d6fa3134bfe8201e5a7c749086c.mailgun.org:Lv6796@smtp.mailgun.org:587"
+  
 }

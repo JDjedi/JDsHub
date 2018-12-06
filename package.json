@@ -13,6 +13,7 @@
     "react-addons-transition-group": "^15.6.2",
     "react-dom": "^15.6.2",
     "react-image-lightbox": "^5.0.0",
-    "react-mounter": "^1.2.0"
+    "react-mounter": "^1.2.0",
+    "react-player": "^1.6.4"
   }
 }
