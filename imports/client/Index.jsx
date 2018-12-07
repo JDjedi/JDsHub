@@ -19,12 +19,82 @@ export default class Gallery extends React.Component {
 							<section id="galleries">
 								<div className="gallery">
 									<header className="special">
-										<h2>Good Times, Good Vibes</h2>
+
 									</header>
 									<footer>
 										<a href="/gallery" className="button big">
 											Image Gallery
 										</a>
+											<div className="content">
+												<div className="media">
+													<div
+														id="imageToEnlarge"
+														onClick={() =>
+															this.setState({
+																isOpen: true,
+																imageToEnlarge: ["images/fulls/01.jpg"]
+															})
+														}
+													>
+														<img
+															src="images/thumbs/01.jpg"
+															alt=""
+															title="This right here is a caption."
+														/>
+													</div>
+												</div>
+												<div className="media">
+													<div
+														id="imageToEnlarge"
+														onClick={() =>
+															this.setState({
+																isOpen: true,
+																imageToEnlarge: ["images/fulls/05.jpg"]
+															})
+														}
+													>
+														<img
+															src="images/thumbs/05.jpg"
+															alt=""
+															title="This right here is a caption."
+														/>
+													</div>
+												</div>
+												<div className="media">
+													<div
+														id="imageToEnlarge"
+														onClick={() =>
+															this.setState({
+																isOpen: true,
+																imageToEnlarge: ["images/fulls/09.jpg"]
+															})
+														}
+													>
+														<img
+															src="images/thumbs/09.jpg"
+															alt=""
+															title="This right here is a caption."
+														/>
+													</div>
+												</div>
+												<div className="media">
+													<div
+														id="imageToEnlarge"
+														onClick={() =>
+															this.setState({
+																isOpen: true,
+																imageToEnlarge: ["images/fulls/02.jpg"]
+															})
+														}
+													>
+														<img
+															src="images/thumbs/02.jpg"
+															alt=""
+															title="This right here is a caption."
+														/>
+													</div>
+												</div>
+											</div>
 									</footer>
 								</div>
 							</section>

@@ -419,6 +419,7 @@
 		.button.big {
 			font-size: 1.35em;
 			padding: 0 2em;
+			margin-bottom: 110px;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -686,7 +687,7 @@
 		appearance: none;
 		border-radius: 4px;
 		border: solid 1px rgba(25, 181, 254, 0.25);
-		color: inherit;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -876,6 +877,10 @@
 		background-color: #17181c;
 	}
 
+	.index-catch-phrase {
+		color: #00c0ff;
+	}
+
 		@media screen and (max-width: 980px) {
 
 			.gallery {
@@ -919,6 +924,7 @@
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
+				color: black;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -1566,7 +1572,7 @@
 		background-position: center;
 		text-align: center;
 		color: #FFF;
-		font-family: 'Dancing Script', cursive;
+		font-family: 'Rubik', sans-serif;
 	}
 
 		#banner:before {
@@ -1610,17 +1616,16 @@
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
-			color: #E9DAE0;
+			color: #ffbf00;
 		}
 
 		#banner p {
 			font-size: 2em;
 			margin-bottom: 1.75em;
-			color: #E9DAE0;
 		}
 
 		#banner a {
-			color: #E9DAE0;
+			color: #ffbf00;
 			text-decoration: none;
 		}
 
