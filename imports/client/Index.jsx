@@ -22,9 +22,6 @@ export default class Gallery extends React.Component {
 
 									</header>
 									<footer>
-										<a href="/gallery" className="button big">
-											Image Gallery
-										</a>
 											<div className="content">
 												<div className="media">
 													<div
@@ -100,7 +97,7 @@ export default class Gallery extends React.Component {
 							</section>
 							<section id="contact">
 								<div className="social column">
-									<h3>What is JD's Hub</h3>
+									<h3> What is JD's Hub </h3>
 									<p>
 										Mus sed interdum nunc dictum rutrum scelerisque erat a
 										parturient condimentum potenti dapibus vestibulum

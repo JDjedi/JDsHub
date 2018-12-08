@@ -77,7 +77,7 @@
 	}
 
 	body {
-		background: #17181c;
+		
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -94,7 +94,7 @@
 /* Type */
 
 	body {
-		background-color: #17181c;
+		
 		color: #22313F;
 	}
 
@@ -467,7 +467,6 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
 	}
 
 		#contact form {
@@ -483,11 +482,9 @@
 			padding-left: 3.5em;
 			padding-right: 3.5em;
 			width: 50%;
-			background: #17181c;
 		}
 
 			#contact .column.social {
-				background: #17181c;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -535,7 +532,6 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #17181c;
 		width: 100%;
 	}
 
@@ -604,7 +600,6 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #17181c;
 	}
 
 	#pricing .column.pricing {
@@ -874,7 +869,6 @@
 		position: relative;
 		overflow: hidden;
 		min-height: 37em;
-		background-color: #17181c;
 	}
 
 	.index-catch-phrase {
@@ -1548,7 +1542,7 @@
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 8em 0 8em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1564,7 +1558,6 @@
 		min-height: 75vh;
 		height: 75vh;
 		position: relative;
-		background: #000;
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
 		background-attachment: fixed;
@@ -1586,7 +1579,6 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			background-color: #000;
 			height: 100%;
 			left: 0;
 			opacity: 0.65;
@@ -1612,11 +1604,12 @@
 		}
 
 		#banner h1 {
-			font-size: 5.5em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-			color: #ffbf00;
+	    font-size: 5.5em;
+	    line-height: 1em;
+	    margin: 0 0 0.5em 0;
+	    padding: 0;
+	    color: #ffbf00;
+
 		}
 
 		#banner p {
@@ -1658,6 +1651,11 @@
 	#main {
 		background: #f1f1f1;
 		width: 100%;
+		background-image: url(../../images/banner.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 		#main #header {
@@ -1691,7 +1689,7 @@
 
 	#footer {
 		padding: 4em 0 2em 0;
-		background: #17181c;
+		
 	}
 
 		#footer .copyright {
