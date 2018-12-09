@@ -1,18 +1,23 @@
 import React from "react";
 import { Component } from "react";
 
-import Contact from './Contact';
+import Contact from './ContactComponent';
 
-export default class Gallery extends React.Component {
+export default class Features extends React.Component {
+
 
 	render() {
 		return (
 			<div className="page-wrap">
 				<section id="main">
+					<section id="banner">
+						<div className="inner">
+							<a href="/"><h1>JD's Hub</h1></a>
+						</div>
+					</section>
 					<section id="pricing">
 						<header>
 							<h1>Venue Features</h1>
-							<a href="/" className="home-button"><h3>Home</h3></a>
 						</header>
 						<div className="content">
 							<div className="pricing column">
@@ -46,10 +51,6 @@ export default class Gallery extends React.Component {
 								</p>
 							</div>
 						</div>
-					</section>
-
-					<section id="contact-pricing">
-						<Contact />
 					</section>
 
 					<footer id="footer">

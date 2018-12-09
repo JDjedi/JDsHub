@@ -871,6 +871,22 @@
 		min-height: 37em;
 	}
 
+	.gallery-wrapper {
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    transform: translateX(0);
+    transition: all 0.3s;
+	}
+
+	.gallery-wrapper .gallery-image {
+		height: auto;
+    margin: 0 0 -5px 0;
+    width: 100%;
+	}
+
 	.index-catch-phrase {
 		color: #00c0ff;
 	}
@@ -948,8 +964,11 @@
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			display: -webkit-box;
 			-moz-flex-wrap: wrap;
 			-webkit-flex-wrap: wrap;
+			-webkit-box-pack: center;
+			-webkit-box-align: center;
 			-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
 			-moz-justify-content: -moz-flex-start;
@@ -980,12 +999,30 @@
 				margin-bottom: 0;
 				overflow: hidden;
 				opacity: 0;
+				width: 400px;
+				height: 400px;
+				text-align: center;
 				position: relative;
-				width: 25%;
+				color: white;	
 			}
 
 				.gallery .content .media a {
 					display: block;
+				}
+
+				.gallery .content .media .link-text {
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  visibility: hidden;
+				}
+
+				.gallery .content .media:hover .link-text {
+					visibility: visible;
+				}
+
+				.gallery .content .media:hover .link-text h2 {
 				}
 
 				.gallery .content .media img {
@@ -1001,9 +1038,13 @@
 				.gallery .content .media:hover img {
 					-moz-transform: scale(1.075);
 					-webkit-transform: scale(1.075);
+					-webkit-filter: blur(15px);
 					-ms-transform: scale(1.075);
 					transform: scale(1.075);
+					filter: blur(15px);
 				}
+
+
 
 				@media screen and (max-width: 736px) {
 
@@ -1495,6 +1536,7 @@
 		-webkit-justify-content: -webkit-flex-start;
 		-ms-justify-content: -ms-flex-start;
 		justify-content: flex-start;
+		height: 100%;
 	}
 
 	.wrapper {
@@ -1579,7 +1621,7 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			height: 100%;
+			height: 130%;
 			left: 0;
 			opacity: 0.65;
 			position: absolute;
@@ -1600,7 +1642,6 @@
 			position: relative;
 			opacity: 1;
 			z-index: 3;
-			padding: 0 2em;
 		}
 
 		#banner h1 {
@@ -1651,11 +1692,9 @@
 	#main {
 		background: #f1f1f1;
 		width: 100%;
-		background-image: url(../../images/banner.jpg);
-		background-size: cover;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: center;
+		display: table;
+		background: url(../../images/banner.jpg) no-repeat center center fixed;
+	  background-size: cover;
 	}
 
 		#main #header {
