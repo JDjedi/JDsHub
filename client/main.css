@@ -883,7 +883,7 @@
 
 	.gallery-wrapper .gallery-image {
 		height: auto;
-    margin: 0 0 -5px 0;
+    margin: 0 0 -8px 0;
     width: 100%;
 	}
 
@@ -999,8 +999,8 @@
 				margin-bottom: 0;
 				overflow: hidden;
 				opacity: 0;
-				width: 400px;
-				height: 400px;
+				width: 350px;
+				height: 350px;
 				text-align: center;
 				position: relative;
 				color: white;	

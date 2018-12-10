@@ -12,7 +12,7 @@ export default class Gallery extends React.Component {
 						<section id="main">
 							<section id="banner">
 								<div className="inner">
-									<h1>JD's Hub</h1>
+									<h1>JD's</h1>
 								</div>
 							</section>
 
@@ -42,6 +42,28 @@ export default class Gallery extends React.Component {
 										</div>
 
 										<div className="media">
+											<a href="/calendar">
+												<div
+													id="imageToEnlarge"
+													onClick={() =>
+														this.setState({
+															isOpen: true
+														})
+													}
+												>
+													<img
+														src="images/thumbs/06jh.jpg"
+														alt=""
+														title="This right here is a caption."
+													/>
+													<div className="link-text">
+														<h2>Upcoming Artists</h2>
+													</div>
+												</div>
+											</a>
+										</div>
+
+										<div className="media">
 											<a href="/contact">
 												<div
 													id="imageToEnlarge"
@@ -62,6 +84,7 @@ export default class Gallery extends React.Component {
 												</div>
 											</a>
 										</div>
+
 										<div className="media">
 											<a href="/gallery">
 												<div

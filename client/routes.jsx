@@ -7,6 +7,7 @@ import Index from "../imports/client/Index";
 import Gallery from "../imports/client/Gallery";
 import Features from "../imports/client/Features";
 import Contact from "../imports/client/Contact";
+import Calendar from "../imports/client/Calendar";
 
 FlowRouter.route("/", {
   name: "Home",
@@ -47,3 +48,17 @@ FlowRouter.route("/contact", {
     });
   }
 });
+
+FlowRouter.route("/calendar", {
+  name: "Calendar",
+  action() {
+    window.scrollTo(0, 0);
+    mount(App, {
+      content: <Calendar />
+    });
+  }
+});
+
+
+
+
