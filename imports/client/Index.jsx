@@ -12,7 +12,7 @@ export default class Gallery extends React.Component {
 						<section id="main">
 							<section id="banner">
 								<div className="inner">
-									<h1>JD's</h1>
+									<h1>Bar 1789</h1>
 								</div>
 							</section>
 

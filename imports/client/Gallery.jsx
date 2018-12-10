@@ -24,7 +24,7 @@ export default class Gallery extends React.Component {
 					<section id="galleries">
 						<div className="gallery-wrapper">
 							<header>
-								<h1>Gallery</h1>
+								<a href="/"><p>Back</p></a>
 							</header>
 							<div className="gallery-image">
 								<img

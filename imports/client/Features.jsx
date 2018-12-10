@@ -12,7 +12,7 @@ export default class Features extends React.Component {
 				<section id="main">
 					<section id="banner">
 						<div className="inner">
-							<a href="/"><h1>JD's Hub</h1></a>
+							<a href="/"><h1>Bar 1789</h1></a>
 						</div>
 					</section>
 					<section id="pricing">
