@@ -1,2 +1,1 @@
-# JDsHub
-# JDsHub
+JD's Hub -- A hypothetical website for a fun and classy bar in South Austin. Utilizes a Meteor-React Stack. Featuring a MailGun functionality allowing the client to directly and safely email the bar staff with any inquires.
