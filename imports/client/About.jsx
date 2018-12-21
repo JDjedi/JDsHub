@@ -10,11 +10,6 @@ export default class About extends React.Component {
 		return (
 			<div className="page-wrap">
 				<section id="main">
-					<section id="banner">
-						<div className="inner">
-							<a href="/"><h1>1789</h1></a>
-						</div>
-					</section>
 					<section id="about">
 						<header>
 							<h1>About</h1>
