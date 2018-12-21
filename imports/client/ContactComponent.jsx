@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import ContactParty from '../api/ContactParty';
 
-export default class Contact extends Component {
+export default class Contactform extends Component {
   constructor() {
     super();
     this.state = {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from "react";
 
-export default class Contactpage extends React.Component {
+export default class Event extends React.Component {
 
 	render() {
 		return (
@@ -9,7 +9,7 @@ export default class Contactpage extends React.Component {
 				<section id="main">
 					<section id="banner">
 						<div className="inner">
-							<a href="/"><h1>Bar 1789</h1></a>
+							<a href="/"><h1>1789</h1></a>
 						</div>
 					</section>
 					<section>

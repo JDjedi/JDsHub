@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 import Contact from './ContactComponent';
 
 
-export default class Gallery extends React.Component {
+export default class Index extends React.Component {
 	render() {
 		return (
 			<div>
@@ -12,7 +12,7 @@ export default class Gallery extends React.Component {
 						<section id="main">
 							<section id="banner">
 								<div className="inner">
-									<h1>Bar 1789</h1>
+									<h1>1789</h1>
 								</div>
 							</section>
 
@@ -20,7 +20,7 @@ export default class Gallery extends React.Component {
 								<div className="gallery">
 									<div className="content">
 										<div className="media">
-											<a href="/features">
+											<a href="/about">
 												<div
 													id="imageToEnlarge"
 													onClick={() =>
@@ -35,14 +35,14 @@ export default class Gallery extends React.Component {
 														title="This right here is a caption."
 													/>
 													<div className="link-text">
-														<h2>Features</h2>
+														<h2>About</h2>
 													</div>
 												</div>
 											</a>
 										</div>
 
 										<div className="media">
-											<a href="/calendar">
+											<a href="/event">
 												<div
 													id="imageToEnlarge"
 													onClick={() =>
@@ -57,7 +57,7 @@ export default class Gallery extends React.Component {
 														title="This right here is a caption."
 													/>
 													<div className="link-text">
-														<h2>Upcoming Artists</h2>
+														<h2>Events</h2>
 													</div>
 												</div>
 											</a>
@@ -96,7 +96,7 @@ export default class Gallery extends React.Component {
 													}
 												>
 													<img
-														src="images/thumbs/02jh.jpg"
+														src="images/thumbs/07jh.jpg"
 														alt=""
 														title="This right here is a caption."
 													/>

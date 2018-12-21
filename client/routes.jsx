@@ -5,9 +5,9 @@ import { mount } from "react-mounter";
 import App from "../imports/client/App";
 import Index from "../imports/client/Index";
 import Gallery from "../imports/client/Gallery";
-import Features from "../imports/client/Features";
+import About from "../imports/client/About";
 import Contact from "../imports/client/Contact";
-import Calendar from "../imports/client/Calendar";
+import Event from "../imports/client/Event";
 
 FlowRouter.route("/", {
   name: "Home",
@@ -29,12 +29,12 @@ FlowRouter.route("/gallery", {
   }
 });
 
-FlowRouter.route("/features", {
-  name: "Features",
+FlowRouter.route("/about", {
+  name: "About",
   action() {
     window.scrollTo(0, 0);
     mount(App, {
-      content: <Features />
+      content: <About />
     });
   }
 });
@@ -49,12 +49,12 @@ FlowRouter.route("/contact", {
   }
 });
 
-FlowRouter.route("/calendar", {
-  name: "Calendar",
+FlowRouter.route("/event", {
+  name: "Event",
   action() {
     window.scrollTo(0, 0);
     mount(App, {
-      content: <Calendar />
+      content: <Event />
     });
   }
 });

@@ -1,9 +1,9 @@
 import React from "react";
 import { Component } from "react";
 
-import Contact from './ContactComponent';
+import Contactform from './ContactComponent';
 
-export default class Contactpage extends React.Component {
+export default class Contact extends React.Component {
 
 	render() {
 		return (
@@ -11,11 +11,11 @@ export default class Contactpage extends React.Component {
 				<section id="main">
 					<section id="banner">
 						<div className="inner">
-							<a href="/"><h1>JD's Hub</h1></a>
+							<a href="/"><h1>1789</h1></a>
 						</div>
 					</section>
 					<section id="contact-pricing">
-						<Contact />
+						<Contactform />
 					</section>
 					<footer id="footer">
 						<div className="copyright">

@@ -65,7 +65,26 @@ export default class Gallery extends React.Component {
 									title="This right here is a caption."
 								/>
 							</div>
-
+							<div className="gallery-image">
+								<img
+									height="100%"
+									width="100%"
+									className="gallery-image"
+									src="images/fulls/06.jpg"
+									alt=""
+									title="This right here is a caption."
+								/>
+							</div>
+							<div className="gallery-image">
+								<img
+									height="100%"
+									width="100%"
+									className="gallery-image"
+									src="images/fulls/07.jpg"
+									alt=""
+									title="This right here is a caption."
+								/>
+							</div>
 						</div>
 
 						{isOpen && (
